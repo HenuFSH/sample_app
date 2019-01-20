@@ -2,5 +2,5 @@
 
 Simon:
   name: Simon
-  email: 18317894179@126.com
+  email: 18317894179@123.com
   password_digest: <%= User.digest('password') %>
