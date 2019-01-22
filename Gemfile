@@ -5,6 +5,10 @@ ruby '2.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
+gem 'faker'
+gem 'nokogiri'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -16,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 gem 'jquery-rails', '>= 1.3.0'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '3.3.7' 
 gem 'mini_racer' # For fixing error 'Autoprefixer doesn’t support Node v4.2.6. Update it.'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
